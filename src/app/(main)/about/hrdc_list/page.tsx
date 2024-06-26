@@ -10,14 +10,14 @@ type HRDCList = {
   name: string;
 };
 
-export const columns: ColumnDef<HRDCList>[] = [
+const columns: ColumnDef<HRDCList>[] = [
   {
     accessorKey: "state",
     header: "State",
   },
   {
     accessorKey: "institute",
-    header: "Institute",
+    header: "Institution Name",
   },
   {
     accessorKey: "name",

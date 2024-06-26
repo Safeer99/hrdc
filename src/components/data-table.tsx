@@ -16,10 +16,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { Button } from "./ui/button";
-import { Pagination, PaginationContent, PaginationItem } from "./ui/pagination";
-import clsx from "clsx";
-import { ChevronsLeft, ChevronsRight } from "lucide-react";
+import { CustomPagination } from "./custom-pagination";
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[];
@@ -93,42 +90,7 @@ export function DataTable<TData, TValue>({
           </TableBody>
         </Table>
       </div>
-      <div className="flex items-center justify-center space-x-2 py-4">
-        <Button
-          variant="outline"
-          size="sm"
-          onClick={() => table.previousPage()}
-          disabled={!table.getCanPreviousPage()}
-        >
-          <ChevronsLeft />
-        </Button>
-        <Pagination className="mx-0 w-max">
-          <PaginationContent>
-            {Array.from({ length: table.getPageCount() }).map((_, index) => (
-              <PaginationItem onClick={() => table.setPageIndex(index)}>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className={clsx("text-muted-foreground", {
-                    "text-black":
-                      table.getState().pagination.pageIndex === index,
-                  })}
-                >
-                  {index + 1}
-                </Button>
-              </PaginationItem>
-            ))}
-          </PaginationContent>
-        </Pagination>
-        <Button
-          variant="outline"
-          size="sm"
-          onClick={() => table.nextPage()}
-          disabled={!table.getCanNextPage()}
-        >
-          <ChevronsRight />
-        </Button>
-      </div>
+      <CustomPagination table={table} />
     </div>
   );
 }

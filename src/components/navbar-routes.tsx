@@ -46,7 +46,16 @@ export const NavbarRoutes = () => {
                   <NavigationMenuContent>
                     <ul className="p-4 pr-10 w-max">
                       {item.components.map((component) => (
-                        <Link href={component.href} key={component.href}>
+                        <Link
+                          target={component.downloadable ? "_blank" : undefined}
+                          rel={
+                            component.downloadable
+                              ? "noopener noreferrer"
+                              : undefined
+                          }
+                          href={component.href}
+                          key={component.href}
+                        >
                           <li
                             className={clsx(
                               "text-sm flex items-center py-2 hover:text-green-600 duration-300 group/item capitalize text-muted-foreground",
