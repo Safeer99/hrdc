@@ -90,7 +90,7 @@ export const NavbarRoutes = () => {
                 className={clsx(
                   "relative h-10 flex items-center text-white font-semibold hover:text-green-500 text-sm capitalize group/trigger",
                   {
-                    "text-green-600": pathname.includes(item.href),
+                    "!text-green-600": pathname.includes(item.href),
                   }
                 )}
               >
