@@ -8,7 +8,7 @@ const WorkshopPage = () => {
   return (
     <div>
       <Banner title="Workshop & Others" imageUrl="/banners/workshop.jpg" />
-      <div className="px-10 py-8">
+      <div className="p-4 md:px-10 md:py-8">
         <p className="text-sm text-slate-700 pb-8">
           Each HRDC organizes one or two workshops for Academic Administrators
           in a year to familiarize them with the philosophy and importance of

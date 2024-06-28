@@ -60,7 +60,7 @@ export const ImageSlider = () => {
           Our Mission
         </p>
         <p
-          className="max-w-[900px] mx-auto absolute transition duration-1000 inset-x-0 top-1/3 text-center text-sm text-white"
+          className="max-w-[900px] mx-auto px-4 absolute transition duration-1000 inset-x-0 top-1/3 text-center text-sm text-white"
           style={{
             opacity: curIndex === 0 ? 1 : 0,
           }}
@@ -71,7 +71,7 @@ export const ImageSlider = () => {
           continue to learn, design, develop and teach courses
         </p>
         <p
-          className="max-w-[900px] mx-auto absolute transition duration-1000 inset-x-0 top-1/3 text-center text-sm text-white"
+          className="max-w-[900px] mx-auto px-4 absolute transition duration-1000 inset-x-0 top-1/3 text-center text-sm text-white"
           style={{
             opacity: curIndex !== 0 ? 1 : 0,
           }}

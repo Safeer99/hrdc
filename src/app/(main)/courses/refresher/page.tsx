@@ -8,7 +8,7 @@ const RefresherPage = () => {
   return (
     <div>
       <Banner title="Refresher Course" imageUrl="/banners/refresher.jpg" />
-      <div className="px-10 py-8">
+      <div className="p-4 md:px-10 md:py-8">
         <p className="text-sm text-slate-700 pb-8">
           A refresher course is a training course in which academia improve
           their knowledge or skills and learn about new developments that are

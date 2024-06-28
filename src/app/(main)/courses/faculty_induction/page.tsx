@@ -8,7 +8,7 @@ const FIPPage = () => {
   return (
     <div>
       <Banner title="Faculty Induction Program" imageUrl="/banners/fip.jpg" />
-      <div className="px-10 py-8">
+      <div className="p-4 md:px-10 md:py-8">
         <p className="text-sm text-slate-700 pb-8">
           The intent of a teacher induction program is to provide a systematic
           structure of support for beginning teachers. This professional

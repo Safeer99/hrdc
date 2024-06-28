@@ -5,7 +5,7 @@ const NonAcademinPage = () => {
   return (
     <div>
       <Banner title="Non-teaching Staff" imageUrl="/banners/non-academic.jpg" />
-      <div className="px-10 py-8 space-y-4 text-sm text-slate-700">
+      <div className="p-4 md:px-10 md:py-8 space-y-4 text-sm text-slate-700">
         <p>
           Non-teaching Staff can be engaged against vacant sanctioned positions
           on contractual basis as per the respective university norms.

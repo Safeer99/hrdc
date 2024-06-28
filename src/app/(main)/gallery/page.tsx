@@ -3,7 +3,7 @@ import React from "react";
 
 const GalleryPage = () => {
   return (
-    <div className="px-10 py-8">
+    <div className="p-4 pt-8 md:px-10 md:py-8">
       <h2 className="text-center text-4xl font-semibold mb-10">
         Our Portfolio
       </h2>

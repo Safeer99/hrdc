@@ -14,7 +14,7 @@ export const Banner = ({ imageUrl, title }: Props) => {
       }}
     >
       <div className="absolute inset-x-0 bottom-0 h-80 bg-gradient-to-b from-transparent to-black" />
-      <p className="absolute left-0 bottom-0 px-10 py-8 text-5xl font-semibold text-white">
+      <p className="absolute left-0 bottom-0 p-4 py-6 md:px-10 md:py-8 text-3xl md:text-5xl font-semibold text-white">
         {title}
       </p>
     </div>

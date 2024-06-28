@@ -32,7 +32,7 @@ const HRDCListPage = () => {
         title="Human Resource Development Centre"
         imageUrl="/banners/hrdc-list.jpg"
       />
-      <div className="px-10 py-8">
+      <div className="p-4 md:px-10 md:py-8">
         <DataTable columns={columns} data={hrdcList} />
       </div>
     </div>

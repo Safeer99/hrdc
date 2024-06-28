@@ -2,10 +2,10 @@ import React from "react";
 
 export const Footer = () => {
   return (
-    <div className="bg-[#323232] min-h-[70vh] flex flex-col justify-between">
-      <div className="flex gap-16 px-28 py-20">
+    <div className="bg-[#323232] min-h-[70vh] flex flex-col justify-between gap-8">
+      <div className="flex md:flex-row flex-col gap-16 p-10 md:px-28 md:py-20">
         <div>
-          <h4 className="mb-6 text-white text-lg font-semibold uppercase">
+          <h4 className="mb-6 text-white sm:text-lg font-semibold uppercase">
             Quick Links
           </h4>
           <ul className="text-gray-300 space-y-3 text-sm">
@@ -15,7 +15,7 @@ export const Footer = () => {
           </ul>
         </div>
         <div>
-          <h4 className="mb-6 text-white text-lg font-semibold uppercase">
+          <h4 className="mb-6 text-white sm:text-lg font-semibold uppercase">
             Related Links
           </h4>
           <ul className="text-gray-300 space-y-3 text-sm">
@@ -26,7 +26,7 @@ export const Footer = () => {
           </ul>
         </div>
         <div>
-          <h4 className="mb-6 text-white text-lg font-semibold uppercase">
+          <h4 className="mb-6 text-white sm:text-lg font-semibold uppercase">
             Authorized Login
           </h4>
           <ul className="text-gray-300 space-y-3 text-sm">
@@ -35,7 +35,7 @@ export const Footer = () => {
           </ul>
         </div>
       </div>
-      <p className="mx-auto mb-8 text-white">
+      <p className="mx-auto mb-8 text-white text-center">
         Graphic Era (Deemed to be University) © 2024
       </p>
     </div>

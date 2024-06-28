@@ -8,7 +8,7 @@ const ShortTermPage = () => {
   return (
     <div>
       <Banner title="Short Term Course" imageUrl="/banners/short-term.jpg" />
-      <div className="px-10 py-8">
+      <div className="p-4 md:px-10 md:py-8">
         <p className="text-sm text-slate-700 pb-8">
           HRDC organizes one-week short term programme on various themes like
           Academic Leadership, Climate Change, Entrepreneurship, Research

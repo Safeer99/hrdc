@@ -5,7 +5,7 @@ const AcademicPage = () => {
   return (
     <div>
       <Banner title="Academic Staff" imageUrl="/banners/academic.jpg" />
-      <div className="px-10 py-8">
+      <div className="p-4 md:px-10 md:py-8">
         <h3 className="font-semibold text-2xl">Professor Director</h3>
         <p className="text-sm py-2 text-slate-700">
           The Professor – Director will be appointed on regular basis. The
